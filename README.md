@@ -1,5 +1,7 @@
 # DEFENCE_BOT
 
+![image](https://user-images.githubusercontent.com/76275812/117559036-6ffbe580-b09f-11eb-8042-23ec4cfcd833.png)
+
 ## 📄 Abstract
 The aim of our project is to make a Voice + Manually Controlable  Robot Car. The working is based on an Arduino microcontroller, motor drivers, A Bluetooth module. Arduino is an open-source hardware (single-board microcontrollers and kits) used for building digital devices. The idea is to first design the Hardware of the Robot Car and then code the entire working using our previous knowledge of programming. The code will then be simulated on software (IDE) and later be interfaced with the hardware. The coordination of the control unit with Bluetooth gadget is accomplished utilizing a Bluetooth module to catch and read the voice orders. The controlling remote is a smart android device with Bluetooth Application. We picked this as our project as robotics has become a major part of our everyday lifestyle and also has a wide scope in the engineering field. It plays a vital role in the development of new technology. 
 
