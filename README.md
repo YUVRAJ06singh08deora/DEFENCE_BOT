@@ -29,10 +29,12 @@ Robotics is an evolving technology. There are Various approaches to build robots
   ![image](https://user-images.githubusercontent.com/76275812/111874987-6f0ed780-89bd-11eb-9ad7-25a4dcf27ff9.png)<br>
   The circuit comprises Arduino UNO Board, HC-05/HC-06 Bluetooth Module, L293D Motor Driver IC, a couple of DC Geared Motors of 250 RPM and a 9V Battery. The TX, RX pins of Arduino are associated with Rx, Tx pins of Bluetooth Module. The Bluetooth Module is provided with 5V. Essentially, the left DC engine is associated with pin no 3 and 6 of L293D and right DC engine to stick no 14 and 11 of L293D. Arduino advanced pins 2,3,4,5 are associated with L293D 2, 7, 10, 15 respectively. The L293D IC Pins 2, 5, 12, 13 are GND pins, and 9, 1, 16 is provided with 5V. Be that as it may, pin 8 of L293D is straightforwardly provided with 9V
 
-### ⚙ Working
+  ### ⚙ Working
   The block diagram of the simple voice controlled robotic vehicle is given it consists of the smartphone that recognizes the voice commands and are being wirelessly transferred to the Bluetooth module HC05. The module at that point changes over the order to content and the series of characters are sent to the Arduino for additional handling. The Arduino microcontroller decodes the string and correspondingly performs further capacities. The signals are sent to the motor that hence powers and drives the motors connected to it. On the Transmitter area, commands are given to the Mobile Application through the mic. This portable handset is associated with the moving vehicle by means of Bluetooth module. The portable application utilized, is modified so that the voice orders given to the handset are received by the mic and these simple voice orders are changed over to advanced word successions (A to D transformation). These stored sequences are then transmitted to the robotic vehicle via Bluetooth transceiver module and are sent to the transceiver controller. Android application transceiver is used to decode the received signal with the Bluetooth module. The controller contrasts these signals and then puts away program orders in it and converts them into voice strings. The voice strings are then used to run the dc motor engines for the ideal interval of time. The microcontroller, sends directions, which when executed, helps in working of the engine driver. The yield of the Arduino goes to the engine driver IC and it controls the specific engine. A DC power supply is required to run the system. The DC power supply feeds the Microcontroller and the Bluetooth module.
   
- ### 🔑 KEY FEATURES OF THE APP
+ ### Working Video
+  https://youtu.be/DADdqZkQDy4
+  ### 🔑 KEY FEATURES OF THE APP
 - We can control this through our voice as well as manually by clicking on to the buttons
 
 
